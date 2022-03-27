@@ -52,14 +52,52 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .describe {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+text-align: center;
+height: 100%;
+position: relative;
+width: 100%;
+}
+
+.me {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background:rgb(151, 79, 151);
+    color: white;
+    overflow: hidden;
+}
+
+.me img {
+    float: right;
+    width: 30%;
+    justify-content: space-between;
 
 }
-.describe-img {
-    width: 1%;
+.about-me-bio p{
+    padding: 35px;
+    float: right;
+    width: 40%;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 130px;
+}
+.about-me-bio h2 {
+    width: 35%;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.2;
+    border-right: 3px solid white;
+    height: 200px;
+    position: relative;
+   right: 120px;
+   top: 100px
+}
 
+}
+.about-me-bio h2:after {
+    content: "";
+    height: 1px;
+    width: 50%;
+    margin-left: 1rem;
+    background-color: purple;
 }
