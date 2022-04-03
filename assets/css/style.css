@@ -67,10 +67,9 @@ width: 100%;
 }
 
 .me img {
-    float: right;
     width: 30%;
     justify-content: space-between;
-
+float: right;
 }
 .about-me-bio p{
     padding: 35px;
@@ -90,14 +89,105 @@ width: 100%;
     height: 200px;
     position: relative;
    right: 120px;
-   top: 100px
+   top: 150px;
+   text-align: center;
 }
 
-}
+
 .about-me-bio h2:after {
     content: "";
     height: 1px;
     width: 50%;
     margin-left: 1rem;
     background-color: purple;
+}
+.previous-work {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background:rgb(151, 79, 151);
+    color: white;
+    overflow: hidden;
+}
+
+.previous-work h2 {
+    width: 25%;
+    margin: 25px 30px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 5px;
+    border-right: 3px solid white;
+    line-break: auto;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+   right: 30px;
+   top: 50px;
+   
+   
+}
+.previous-work h2:after {
+    content: "";
+    height: 1px;
+    width: 50%;
+    margin-left: 1rem;
+}
+
+
+
+
+.previous-work p {
+    padding: 30px;
+    float: right;
+    width: 50%;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+
+}
+.previous-work img {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.previous-work p a:hover {
+    background-color: yellow;
+}
+
+.contact {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background:rgb(151, 79, 151);
+    color: white;
+    overflow: hidden;
+}
+
+.contact h2 {
+    width: 25%;
+    margin: 25px 30px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 5px;
+    border-right: 3px solid white;
+    line-break: auto;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+   right: 30px;
+   top: 50px;
+   
+   
+
+}
+
+.contact a {
+    padding: 30px;
+    float: right;
+    width: 50%;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+    
 }
